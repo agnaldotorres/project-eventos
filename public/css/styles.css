@@ -1,0 +1,507 @@
+
+
+#navbar img {
+   width: 40px; 
+
+}
+
+
+#navbar {
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 5px 0;
+}
+
+#navbar a{
+    font-size: 14px;
+    color: #c28008;
+}
+
+#navbar a:hover {
+    font-size: 14px;
+    color: #503402;
+}
+
+
+h1 {
+    color: rgb(1, 56, 22);
+    display: flex;
+    justify-content:center;
+}
+
+.navbar-light {
+    display: flex;
+    justify-content:center;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color :rgb(0, 121, 40);
+    padding-right: 100px;
+    justify-content: center;
+}
+
+.nav-item {
+    list-style-type: none;
+    font-family: 'Bowlby One SC';
+}
+
+
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: aliceblue;
+    border-bottom: 1px cornsilk;
+}
+
+.msg {
+    background-color: #044902;
+    color: #eafa0c;
+    border: #c28008;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.row.tt {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-fluid {
+    padding: 0;
+    
+ 
+}
+
+.container-evento {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.table.meus-eventos {
+ margin-left: -215px;
+
+}
+
+.btn-primary {
+    display: inline-block; 
+    padding: 6px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: rgb(253, 252, 252); 
+    background-color: rgba(5, 19, 206, 0.849); 
+    border: none; 
+    border-radius: 5px; 
+    text-align: center; 
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.btn-primary:hover {
+    background-color: #00581d;
+    border-color: #c28008;
+}
+
+#search-container {
+    background-image: url("../img/cbf.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1 {
+    color: aliceblue;
+    margin-bottom: 30px;
+    font-weight: 900px;
+}
+
+#search-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+#events-container {
+    padding: 50px;
+    
+}
+
+#search-container h2 {
+    margin-bottom: 10px;
+}
+
+#search-container .subtitle {
+    color: #2a4b00;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+}
+
+#events-container .card {
+    flex: 1 1 0;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 5px;
+    
+}
+
+#events-container img {
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.card.card-date {
+    font-size: 12px;
+    color: aliceblue;
+}
+
+.card .card-title {
+color:#2a4b00;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 30px;
+}
+
+.card-participants {
+  font-size: 14px;
+  color: #2a4b00;  
+}
+
+/* dashboard*/
+.dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.dashboard-events-container {
+   
+   width: 25%; 
+}
+
+.dashboard-events-container form {
+    display: inline-block;
+
+}
+
+
+
+
+footer {
+    text-align: center;
+    background-color: #2a4b00;
+    color: aliceblue;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+#search {
+    width: 100%;
+    max-width: 600px;
+    height: 40px; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 2px solid rgba(255, 255, 255, 0.24);
+    border-radius: 5px; 
+    background-color: rgba(117, 117, 117, 0.137); 
+    color: rgb(0, 7, 102); 
+}
+
+.busque {
+    background: linear-gradient(70deg, rgba(5, 19, 206, 0.849), rgb(84, 97, 212)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    font-size: 5em; 
+    font-weight: bold; 
+    font-family: 'Bowlby One SC';
+   
+}
+
+/* event create page*/
+
+#event-create-container {
+    padding: 30px;
+    font-size: 20px;
+    
+}
+
+#event-create-container label {
+    font-weight: bold;
+    
+}
+
+#event-create-container input, 
+#event-create-select,
+#event-create-textarea {
+    
+    display: flex;
+    font-size: 12px;
+    align-items: baseline;
+    
+
+}
+
+.form-group {
+    display: flex;
+    justify-content:flex-start
+}
+
+
+#event-create-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 0 auto; 
+    max-width: 600px; 
+    padding: 60px; 
+    background: linear-gradient(40deg, rgba(11, 61, 1, 0.849), rgb(84, 212, 137)); 
+    border-radius: 8px;
+    color: aliceblue;
+}
+  
+#event-create-container {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.text-center {
+    margin-top: 30px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+#private {
+    width: 40%;
+    height: 22px;
+    border-radius: 5px;
+    margin-left: 6px;
+    border: solid 2px rgb(1, 73, 5);
+    
+}
+
+textarea {
+    resize:vertical;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: solid 2px rgb(1, 73, 5);
+    
+}
+
+#cidade {
+    width: 40%; 
+    height: 20px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: solid 2px rgb(1, 73, 5);
+    
+}
+
+#pais {
+
+    margin-left: 20px;
+    border-radius: 5px;
+    border: solid 2px rgb(1, 73, 5);
+    
+}
+
+#title {
+    width: 40%;
+    height: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: solid 2px rgb(1, 73, 5);
+}
+
+
+.crie {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+#image {
+    width: 40%; 
+    height: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: solid 2px rgb(1, 73, 5);
+
+}
+
+label[for="created_at"] {
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+label[for="updated_at"] {
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+label[for="private"] {
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+label[for="description"] {
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+label[for="title"] {
+    font-size: 20px; 
+    font-weight: bold; 
+    
+}
+
+label[for="image"] {
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+/* Event page */
+#image
+
+
+.img-fluid {
+    width: 200px;  
+    height: auto; 
+}
+
+#image-container img {
+    border-radius: 10px;
+}
+
+
+.noevents {
+    color: #00581d;
+}
+
+#date {
+    font-weight: bold; 
+    margin-left: 20px;
+}
+
+/* edit page */
+
+.img-preview {
+    width: 200px;
+    margin-top: 02px;
+    margin-left: 20px;
+
+}
+
+
+#info-container .alreadry-joined-msg {
+
+    margin: 15px;
+    color: #044902;
+    background-color: #1168355e;
+    border: #c28008;
+    padding: 10px;
+    width: 180px;
+}
+
+
+/* dashboard page */
+
+
+
+
+.edit-btn {
+    background-color: #699eff; 
+    color: white; 
+    padding: 3px 6px;
+    border-radius: 5px;
+    border-color: #000000; 
+    text-decoration: none; 
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 16px;
+}
+
+
+.delete-btn {
+    background-color: #e4120b; 
+    color: white; 
+    padding: 3px 6px;
+    border-radius: 5px; 
+    text-decoration: none; 
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 13px;
+}
+
+.table {
+    width: 900px;
+    border-collapse: collapse; 
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left; 
+    border-bottom: 1px solid #ddd; 
+}
+
+.table th {
+    background-color: #f8f9fa;
+    color: #343a40; 
+}
+
+.table tr:hover {
+    background-color: #f1f1f1; */
+}
+
+.table a {
+    color: #000000;
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.table a:hover {
+    text-decoration: underline;
+}
+
+.participant-count {
+    background-color: #e7f1ff;
+    border-radius: 5px; 
+    padding: 5px; 
+}
+
+.meus {
+    font-family: 'Bowlby One SC';
+    color: #044902;
+
+}
